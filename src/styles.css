@@ -1,0 +1,56 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar img{
+    margin-left: 70px;
+}
+ 
+#collapsibleNavbar{
+    margin-left: 650px; 
+    font-size: 14px;
+     
+}
+#navbarSupportedContent a{
+    color: black;
+    padding: 14px;
+}
+
+#navbarSupportedContent a:hover{
+    color: rgb(243, 72, 72);
+}
+
+#blog img{
+    width: 80%;
+    border-radius: 10px;
+}
+#home{
+    text-align: justify;
+    width: 40%;
+}
+#home h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#blog p{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -60px;
+    line-height: 30px;
+}
+.btn1{
+    border: 1px solid rgb(243, 72, 72);
+    border-radius: 4px;
+    background-color: rgb(245, 109, 109);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(245, 89, 89);
+    color: white;
+}/* You can add global styles to this file, and also import other style files */
+
+.custom-container {
+    max-width: 1200px; /* Adjust the width as needed */
+}
