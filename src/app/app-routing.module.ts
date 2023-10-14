@@ -4,6 +4,8 @@ import { AboutComponent } from './about/about.component';
 import { GetintouchComponent } from './getintouch/getintouch.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { VideoComponent } from './video/video.component';
+
 
 
 const routes: Routes = [
@@ -12,6 +14,7 @@ const routes: Routes = [
  {path:'about', component:AboutComponent},
   {path:'getintouch', component:GetintouchComponent},
   {path: 'header', component:HeaderComponent},
+  {path:'video', component:VideoComponent},
 ];
 
 @NgModule({
